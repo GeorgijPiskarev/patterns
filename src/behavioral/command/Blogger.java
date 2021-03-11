@@ -11,7 +11,8 @@ public class Blogger {
     EditCommentAction editCommentAction;
     EditMainTextAction editMainTextAction;
 
-    public Blogger(BlockSubscriberAction blockSubscriberAction, CommentAction commentAction, EditCommentAction editCommentAction, EditMainTextAction editMainTextAction) {
+    public Blogger(BlockSubscriberAction blockSubscriberAction, CommentAction commentAction,
+                   EditCommentAction editCommentAction, EditMainTextAction editMainTextAction) {
         this.blockSubscriberAction = blockSubscriberAction;
         this.commentAction = commentAction;
         this.editCommentAction = editCommentAction;

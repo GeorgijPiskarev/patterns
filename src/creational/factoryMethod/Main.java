@@ -6,7 +6,7 @@ import creational.factoryMethod.factory.DogDinner;
 
 import java.time.LocalTime;
 
-//Кормим определенное животно в соответствии со временем.
+//Кормим определенное животное в соответствии со временем.
 public class Main {
     private static Dinner dinner;
 
